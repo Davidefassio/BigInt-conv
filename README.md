@@ -38,9 +38,7 @@ BigInt n3(n2);
 BigInt n4("123456789");
 BigInt n5 = n4;
 BigInt n6 = "-123456789";
-```
 
-```c++
 sdt::string str = n2.getString();
 int sign = n4.getSign();
 std::vector<uint64_t> vec = n6.getVector();
