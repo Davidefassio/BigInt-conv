@@ -229,8 +229,8 @@ std::vector<uint64_t> BigInt::getVector() const {
 std::vector<uint64_t> BigInt::strToVec(std::string str){
     // Convert the string to a vector of digits
     std::vector<int8_t> vdig;
-    for(char c : str){
-        if(c > 47 && c < 58){ vdig.push_back(((int) c) - 48); }
+    for(int64_t i = 0; i < str.size(); ++i){
+        if(str[i] > 47 && str[i] < 58){ vdig.push_back(((int) str[i]) - 48); }
         else{ exit(0); }
     }
     for(int64_t i = 0; i < vdig.size(); ++i){
