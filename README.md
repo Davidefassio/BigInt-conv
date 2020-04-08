@@ -59,7 +59,7 @@ std::vector<uint64_t> vec = n7.getVector();
 MIT License
     
 =====================================================================
-Bigint-conv: 
+BigInt-conv: 
 big integer convert from string to vector of unsigned 64bit integer.
 =====================================================================
 
