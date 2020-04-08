@@ -2,7 +2,7 @@
 #### Big integer converter by Davide Fassio.
 
 ## Overview
-This header-only library (https://github.com/Davidefassio/BigInt-conv/blob/master/Bigint_conv.hpp) allows you to convert a arbitary size string of digit into a vector of 64bit unsigned integer.\
+This [header-only](https://github.com/Davidefassio/BigInt-conv/blob/master/Bigint_conv.hpp) library allows you to convert a arbitary size string of digit into a vector of 64bit unsigned integer.\
 This process will speed up all the future calculation made on the number.
 
 ## Prototypes
