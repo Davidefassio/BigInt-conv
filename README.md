@@ -31,4 +31,13 @@ std::vector<uint64_t> getVector();
 ## Examples
 ```c++
 BigInt n1();
+BigInt n2((int64_t) -123456789);
+BigInt n3(n2);
+BigInt n4("123456789");
+BigInt n5 = n4;
+BigInt n6 = "-123456789";
+```
+
+```c++
+
 ```
