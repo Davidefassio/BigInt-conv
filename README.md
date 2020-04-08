@@ -41,7 +41,7 @@ BigInt n4("123456789");
 // Assognment's examples: 
 BigInt n5 = n4;
 BigInt n6 = 123456789;
-BigInt n = "-123456789";
+BigInt n7 = "-123456789";
 
 // Getter's examples:
 sdt::string str = n2.getString();
