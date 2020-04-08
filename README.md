@@ -5,7 +5,7 @@
 This [header-only](https://github.com/Davidefassio/BigInt-conv/blob/master/Bigint_conv.hpp) library allows you to convert a arbitary size string of digit into a vector of 64bit unsigned integer.\
 This process will speed up all the future calculation made on the number.\
 To include the header in your project download it ([Bigint-conv.hpp](https://github.com/Davidefassio/BigInt-conv/blob/master/Bigint_conv.hpp)) and in your ```.cpp``` file write ```#include "Bigint-conv.hpp"```.\
-N.B.: only the header file is written with the second i lowerase "Bigint.hpp"; the name of the repo and the class is with the second i uppercase "BigInt-conv" - "BigInt".\
+**N.B.:** only the header file is written with the second i lowerase ```Bigint.hpp```; the name of the repo and the class is with the second i uppercase ```BigInt-conv``` - ```BigInt```.\
 \
 On my computer the test #9 with 100,000 decimal digits of Pi run in: 589.94 seconds (~ 10 minutes).
 
