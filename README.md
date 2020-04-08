@@ -5,16 +5,16 @@ This process will speed up all the future calculation made on the number.
 
 ## Prototype
 ### Constructors
-``` c++
-BigInt();
-BigInt(BigInt&);
+```c++
+BigInt();         // Default constructor
+BigInt(BigInt&);  // Copy constructor
 BigInt(int64_t);
 BigInt(std::string);
 BigInt(char[]);
 ```
 
 ### Assignment operators
-``` c++
+```c++
 BigInt& operator=(BigInt&);
 BigInt& operator=(int64_t);
 BigInt& operator=(std::string);
@@ -22,8 +22,13 @@ BigInt& operator=(char[]);
 ```
 
 ### Getters
-``` c++
+```c++
 int getSign();
 std::string getString();
 std::vector<uint64_t> getVector();
+```
+
+## Examples
+```c++
+BigInt n1();
 ```
