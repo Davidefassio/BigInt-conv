@@ -6,7 +6,7 @@ This [header-only](https://github.com/Davidefassio/BigInt-conv/blob/master/Bigin
 This process will speed up all the future calculation made on the number.\
 To include the header in your project download it ([BigInt-conv.hpp](https://github.com/Davidefassio/BigInt-conv/blob/master/Bigint_conv.hpp)) and in your ```.cpp``` file write ```#include "BigInt-conv.hpp"```.\
 \
-On my computer the test #9 with 100,000 digits of Pi run in: 589.94 seconds (~ 10 minutes).
+On my computer the test #9 with 100,000 decimal digits of Pi run in: 589.94 seconds (~ 10 minutes).
 
 ## Prototypes
 ### Constructors
