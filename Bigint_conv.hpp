@@ -1,5 +1,10 @@
 /*
     MIT License
+    
+    =====================================================================
+    Bigint-conv: 
+    big integer convert from string to vector of unsigned 64bit integer.
+    =====================================================================
 
     Copyright (c) 2020 Davide Fassio
 
